@@ -20,12 +20,17 @@ long long read_unsigned_int()
 
 void print_int(long long output)
 {
-	printf("%lld", output);
+	printf("%lld\n", output);
 }
 
 void print_unsigned_int(unsigned long long output)
 {
-	printf("%llu", output);
+	printf("%llu\n", output);
+}
+
+void print_nl()
+{
+	printf("\n");
 }
 
 int main()
